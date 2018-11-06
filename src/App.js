@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import Header from './components/header';
+import Clock from './components/clock';
 import BacuraVideo from './videos/bacura.mp4';
 import './App.css';
 
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
 
         <h1>wear<br/>baçura</h1>
+        <Clock />
 
         <video
            className="bacura-video"

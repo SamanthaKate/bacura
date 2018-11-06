@@ -1,0 +1,7 @@
+.clock {
+  z-index: 2;
+  text-align: center;
+  font-family: 'Mali', cursive;
+  font-size: 20px;
+  padding-top: 20px;
+}
