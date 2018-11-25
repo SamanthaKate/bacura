@@ -5,7 +5,7 @@ import Clock from '../clock';
 import BacuraVideo from '../../videos/bacura.mp4';
 import './landing.css';
 
-class App extends Component {
+class Landing extends Component {
   render() {
     return (
       <div>
@@ -32,4 +32,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Landing;
